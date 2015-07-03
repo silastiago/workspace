@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Itinerários Alves </string>
+    <string name="menu_settings">Settings</string>
+    
+  
+    <string name="select1">Choose an item</string>
+    <string name="select2">Cidades</string>
+    <string name="select3">Choose an item</string>
+    <string name="select4">Cidades</string>
+    <string name="button_label">Consultar Horario</string>
+ 
+    
+
+</resources>

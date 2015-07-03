@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alves"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.alves.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+          
+        <activity
+            android:name="com.example.alves.barcelonaLagoaVelhos"></activity>
+        <activity
+            android:name="com.example.alves.barcelonaNatal"></activity>
+        <activity
+            android:name="com.example.alves.barcelonaMarias"></activity>
+        <activity
+            android:name="com.example.alves.barcelonaSaoPaulo"></activity>
+        <activity
+            android:name="com.example.alves.barceloSaoPedro"></activity>
+        <activity
+            android:name="com.example.alves.barcelonaSaoTome"></activity>
+        
+        
+        
+        
+        
+        <activity
+            android:name="com.example.alves.bomJesusNatal"></activity>
+        <activity
+            android:name="com.example.alves.bomJesusMarias"></activity>
+        <activity
+            android:name="com.example.alves.bomJesusSerraCaiada"></activity>
+        <activity
+            android:name="com.example.alves.bomJesusSitioNovo"></activity>
+        <activity
+            android:name="com.example.alves.bomJesusTangara"></activity>
+        
+        <activity
+            android:name="com.example.alves.natalBarcelona"></activity>
+        <activity
+            android:name="com.example.alves.natalBomJesus"></activity>
+        <activity
+            android:name="com.example.alves.natalLagoaVelhos"></activity>
+        <activity
+            android:name="com.example.alves.natalMarias"></activity>
+        <activity
+            android:name="com.example.alves.natalSaoPaulo"></activity>
+        <activity
+            android:name="com.example.alves.natalSaoPedro"></activity>
+        <activity
+            android:name="com.example.alves.natalSaoTome"></activity>
+        <activity
+            android:name="com.example.alves.natalSerraCaiada"></activity>
+        <activity
+            android:name="com.example.alves.natalSitioNovo"></activity>
+        <activity
+            android:name="com.example.alves.natalTangara"></activity>
+        
+        
+        
+        <activity
+            android:name="com.example.alves.mariasBarcelona"></activity>
+        <activity
+            android:name="com.example.alves.mariasBomJesus"></activity>
+        <activity
+            android:name="com.example.alves.mariasLagoaVelhos"></activity>
+        <activity
+            android:name="com.example.alves.mariasNatal"></activity>
+        <activity
+            android:name="com.example.alves.mariasSaoPaulo"></activity>
+        <activity
+            android:name="com.example.alves.mariasSaoPedro"></activity>
+        <activity
+            android:name="com.example.alves.mariasSaoTome"></activity>
+        <activity
+            android:name="com.example.alves.mariasSerraCaiada"></activity>
+        <activity
+            android:name="com.example.alves.mariasSitioNovo"></activity>
+        <activity
+            android:name="com.example.alves.mariasTangara"></activity>
+        
+        
+        
+        <activity
+            android:name="com.example.alves.ruibarbosaNatal"></activity>
+        
+        <activity
+            android:name="com.example.alves.saoPauloBarcelona"></activity>
+        <activity
+            android:name="com.example.alves.saoPauloLagoaVelhos"></activity>
+        <activity
+            android:name="com.example.alves.saoPauloPotengiNatal"></activity>
+        <activity
+            android:name="com.example.alves.saoPauloMarias"></activity>
+     	<activity
+            android:name="com.example.alves.saoPauloSaopedro"></activity>
+        <activity
+            android:name="com.example.alves.saoPauloSaoTome"></activity>   
+        
+        
+        <activity
+            android:name="com.example.alves.saoPedroBacelona"></activity>
+        <activity
+            android:name="com.example.alves.saoPedroLagoVelhos"></activity>
+        <activity
+            android:name="com.example.alves.saoPedroNatal"></activity>
+        <activity
+            android:name="com.example.alves.saoPedroMarias"></activity>
+        <activity
+            android:name="com.example.alves.saoPedroSaoPaulo"></activity>
+        <activity
+            android:name="com.example.alves.saoPedroSaoTome"></activity>
+        
+        
+        
+        
+        <activity
+            android:name="com.example.alves.saoTomeBarcelona"></activity>
+        <activity
+            android:name="com.example.alves.saoTomeNatal"></activity>
+        <activity
+            android:name="com.example.alves.saoTomeMarias"></activity>
+        <activity
+            android:name="com.example.alves.saoTomeSaoPaulo"></activity>
+        <activity
+            android:name="com.example.alves.saoTomeSaoPedro"></activity>
+        
+        
+        <activity
+            android:name="com.example.alves.serraCaiadaBomJesus"></activity>
+        <activity
+            android:name="com.example.alves.serraCaiadaNatal"></activity>
+        <activity
+            android:name="com.example.alves.serraCaiadaMarias"></activity>
+        <activity
+            android:name="com.example.alves.serraCaiadaSitioNovo"></activity>
+        <activity
+            android:name="com.example.alves.serraCaiadaTangara"></activity>
+        
+        
+        <activity
+            android:name="com.example.alves.sitioNovoBomJesus"></activity>
+        <activity
+            android:name="com.example.alves.sitioNovoNatal"></activity>
+        <activity
+            android:name="com.example.alves.sitioNovoMarias"></activity>
+        <activity
+            android:name="com.example.alves.sitioNovoSerraCaiada"></activity>
+        <activity
+            android:name="com.example.alves.sitioNovoTangara"></activity>
+        
+        
+        
+        <activity
+            android:name="com.example.alves.tangaraBomJesus"></activity>
+        <activity
+            android:name="com.example.alves.tangaraNatal"></activity>
+        <activity
+            android:name="com.example.alves.tangaramarias"></activity>
+        <activity
+            android:name="com.example.alves.tangaraSerraCaiada"></activity>
+        
+    </application>
+
+</manifest>
+
